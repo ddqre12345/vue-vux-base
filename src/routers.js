@@ -5,8 +5,8 @@ const router = [{
   path: '/index',  //  引导页
   name: 'index',
   component (resolve) {
-    require.ensure(['./views/index'], () => {
-      resolve(require('./views/index'));
+    require.ensure(['./pages/index'], () => {
+      resolve(require('./pages/index'));
     });
   }
 }];
