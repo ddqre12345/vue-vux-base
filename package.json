@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "axios": "^0.15.3",
+    "px2rem-loader": "^0.1.7",
     "sinon": "^2.1.0",
     "vue": "^2.2.1",
     "vue-infinite-scroll": "^2.0.1",
